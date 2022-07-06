@@ -10,7 +10,7 @@ $$
 withdraw = η*sTokenAmount - shadow
 $$
 
-​shadow是承保人被冻结的资本的额度。它的基础算法见上一章节中保单生成与资本冻结部分。但如果考虑已到期的保单会释放出部分资本，情况会变得更复杂。
+​shadow是承保人被冻结的资本的额度。它的基础算法见上一章节中的[#bao-dan-sheng-cheng-yu-zi-ben-dong-jie](cheng-bao-de-shou-yi-yu-feng-xian.md#bao-dan-sheng-cheng-yu-zi-ben-dong-jie "mention")。但如果考虑已到期的保单会释放出部分资本，情况会变得更复杂。
 
 ## 保单的注销
 
@@ -24,7 +24,9 @@ $$
 
 ​计算一个承保人的shadow时，需要先行判断他的index与latestUnfrozenIndex的大小关系。当index<=latestUnfrozenIndex时，表明正在被释放的资本中，已经有该承保人当初被冻结的部分。他的shadow计算公式就变为：
 
-
+$$
+f(x) = x * e^{2 pi i \xi x}
+$$
 
 
 
