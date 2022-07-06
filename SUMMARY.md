@@ -18,16 +18,9 @@
 ***
 
 * [路线图](lu-xian-tu.md)
+* [代币分配与经济学](dai-bi-fen-pei-yu-jing-ji-xue.md)
+* [荣誉](rong-yu.md)
 
-## Use Cases
+## 联系我们
 
-* [For Designers](use-cases/for-designers/README.md)
-  * [Figma Integration](use-cases/for-designers/figma-integration.md)
-* [For Engineers](use-cases/for-engineers/README.md)
-  * [GitHub Integration](use-cases/for-engineers/github-integration.md)
-* [For Support](use-cases/for-support/README.md)
-  * [Intercom Integration](use-cases/for-support/intercom-integration.md)
-
-## Extras
-
-* [Keyboard Shortcuts](extras/keyboard-shortcuts.md)
+* [社交媒体与联系方式](lian-xi-wo-men/she-jiao-mei-ti-yu-lian-xi-fang-shi.md)
