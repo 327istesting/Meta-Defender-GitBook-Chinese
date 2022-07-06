@@ -24,10 +24,6 @@ $$
 
 ​计算一个承保人的shadow时，需要先行判断他的index与latestUnfrozenIndex的大小关系。当index<=latestUnfrozenIndex时，表明正在被释放的资本中，已经有该承保人当初被冻结的部分。他的shadow计算公式就变为：
 
-$$
-f(x) = x * e^{2 pi i \xi x}
-$$
-
 
 
 
