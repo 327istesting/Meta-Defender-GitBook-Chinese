@@ -32,5 +32,14 @@ $$
 shadow_{new}=shadow-shadow_{down} = sTokenAmount*(accSPS-accSPSDown)
 $$
 
-​
+$$
+withdraw = η*sTokenAmount - shadow_{new}
+$$
 
+## 承保人撤出资本后
+
+为了使协议便于维护、降低用户调用合约时的gas成本，Meta Defender目前要求撤资的承保人一次性撤走全部的剩余流动性（即上文的withdraw）。
+
+当然，可能您只想“部分撤出”。实现这个功能异常简单，您只需要先全部撤出，再以您期望的承保金额重新加入。这可以使协议免于维护一个巨大的账本，否则gas费用将变得难以想象。
+
+承保人撤出资本时，需要销毁自己所有的sToken。
